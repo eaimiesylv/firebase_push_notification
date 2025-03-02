@@ -4,13 +4,13 @@
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDG9u1hP0XL_HHfdqZxAH7kS_71xod9kRA",
-  authDomain: "gochacha-696f8.firebaseapp.com",
-  projectId: "gochacha-696f8",
-  storageBucket: "gochacha-696f8.firebasestorage.app",
-  messagingSenderId: "221868653514",
-  appId: "1:221868653514:web:0ea669d8e2a60c6058ad33",
-  measurementId: "G-HDG57KN0KQ"
+  apiKey: "***********",
+  authDomain:  "***********",
+  projectId:  "***********",
+  storageBucket:  "***********",
+  messagingSenderId:  "***********",
+  appId:  "***********",
+  measurementId:  "***********",
 };
 
 // Initialize Firebase
@@ -19,7 +19,7 @@ const app = initializeApp(firebaseConfig);
 
 const messaging =  getMessaging(app);
 function requestPermissionAndGetToken() {
-  return getToken(messaging, { vapidKey: 'BELEyfixMvm_NKi3mtd3-9RbeOsnFcvbcnRu6VKY4QGUBBUfS0lE18A6SuUcjQ-jl-i38inL4f1yBlblJEsvMic' }).then((currentToken) => {
+  return getToken(messaging, { vapidKey: ' "***********"' }).then((currentToken) => {
     if (currentToken) {
       console.log(currentToken);
       // Send the token to your server

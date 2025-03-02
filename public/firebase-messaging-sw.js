@@ -4,13 +4,13 @@ importScripts("https://www.gstatic.com/firebasejs/9.6.1/firebase-messaging-compa
 
 // Initialize Firebase in the service worker
 firebase.initializeApp({
-  apiKey: "AIzaSyDG9u1hP0XL_HHfdqZxAH7kS_71xod9kRA",
-  authDomain: "gochacha-696f8.firebaseapp.com",
-  projectId: "gochacha-696f8",
-  storageBucket: "gochacha-696f8.firebasestorage.app",
-  messagingSenderId: "221868653514",
-  appId: "1:221868653514:web:0ea669d8e2a60c6058ad33",
-  measurementId: "G-HDG57KN0KQ"
+  apiKey: "***********",
+  authDomain:  "***********",
+  projectId:  "***********",
+  storageBucket:  "***********",
+  messagingSenderId:  "***********",
+  appId:  "***********",
+  measurementId:  "***********",
 });
 
 // Retrieve messaging instance
